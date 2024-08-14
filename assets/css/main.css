@@ -212,7 +212,8 @@
         color: white;
         text-align: center;
         z-index: 2;
-        font-family: "Roboto", sans-serif;
+        font-family: "Exo";
+        text-transform: uppercase;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         padding: 20px;
         max-width: 80%;
@@ -292,7 +293,15 @@
     
     }
     
+.Sobre_nos{
+    max-width:100% ;
+    margin: 0 auto;
+    background-color:#E3F6FF;
+    margin-top: 30px;
+    height: 600px;
+    display: flex;
 
+}
 
 
 
@@ -450,6 +459,8 @@
     font-family: var(--principal_font);
     font-size: 20px;
     padding: 10px;
+    font-family: "Exo";
+    text-transform: uppercase;
 }
 
 .footer_copy {
@@ -524,6 +535,9 @@
         font-family: "roboto";
     
     
+       }
+       .Sobre_nos{
+        width: 90%;
        }
     
        
