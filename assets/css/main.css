@@ -200,33 +200,29 @@
     /* comencando os servicos*/
 
   
-.scroll_controller {
-    font-size: 20px;
-    width: 300px;
-    position: fixed;
-    right: 30px;
-    padding: 10px;
-    bottom: 10px;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    display: flex;
-    justify-content: center;
-    background-color: red;
-}
+    .scroll_controller {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        background-color: #25d366;
+        color: white;
+        padding: 10px;
+        border-radius: 50%;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        display: none; /* Inicialmente escondido */
+        z-index: 1000;
+        cursor: pointer;
+        transition: opacity 0.3s ease;
+    }
 
-.scroll_controller.show {
-    opacity: 1;
-}
+    .scroll_controller:hover {
+        opacity: 0.8;
+    }
 
-.scroll_controller i {
-    box-shadow: 1px 3px 60px 22px var(--second_color);
-    font-size: 29px;
-    background-color: white;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-
+    .scroll_controller i {
+        font-size: 24px;
+        color: white;
+    }
     /* Fim das  Configurações do menu */
     .header_content {
         position: relative;
@@ -372,7 +368,39 @@
 
 }
 
+.t_trabalho{
+    margin-top: 30px !important;
+    color:#303a43;
+}
 
+.t_trabalho_div{
+display: flex;
+flex-wrap: wrap;
+}
+.zediua{
+    margin-top: 90px;
+}
+.formação_ h1{
+    color: #4a5056;
+    font-family: "Exo";
+    font-size: 22px;
+}
+.formação_ .boxs{
+    width: 200px !important;
+    height: 100px !important;
+    color: #616365 !important;
+}
+.t_trabalho .boxs{
+    border: 1px solid rgb(39, 20, 57);
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin: 10px;
+}
+.t_trabalho .boxs img {
+    width: 150px;
+}
 
     .comenter{
 
@@ -529,9 +557,16 @@
     text-transform: uppercase;
 }
 .footer li {
-    text-align: center;
     margin: 0 auto;
+    display: inline-block;
+   
     
+}
+.social_elements{
+
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
 
 .footer_copy {

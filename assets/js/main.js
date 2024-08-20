@@ -42,6 +42,15 @@ document.addEventListener("DOMContentLoaded", function() {
    
     fecharMenu();
 });
+window.addEventListener('scroll', function() {
+    var controller = document.getElementById('whatsapp-controller');
+    if (window.scrollY > 50) {
+        controller.style.display = 'block'; // Mostra o ícone após 200px
+    } else {
+        controller.style.display = 'none'; // Esconde o ícone antes dos 200px
+    }
+});
+
 
 function scrollToTop() {
     document.body.scrollTop = 0; // <!-- Para navegadores Safari -->

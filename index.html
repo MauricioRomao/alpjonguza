@@ -1,387 +1,322 @@
-    <!DOCTYPE html>
-    <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Alp Jonguza- Empresa especializada em limpezas de vidros. Oferecemos soluções personalizadas para suas necessidades de limpeza.">
-        <title>ALP Jonguza</title>
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Alp Jonguza- Empresa especializada em limpezas de vidros. Oferecemos soluções personalizadas para suas necessidades de limpeza.">
+      <title>ALP Jonguza</title>
+      <!-- Favicon -->
+      <link rel="shortcut icon" href="assets/img/logo/WhatsApp Image 2024-08-07 at 08.21.28.jpeg" type="image/x-icon">
+      <!-- CSS -->
+      <link rel="stylesheet" href="assets/css/main.css">
+      <link rel="stylesheet" href="dependencies/meanmenu/css/meanmenu.min.css" type="text/css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+      <!-- Google Fonts -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <!--  Boxicons, oficial site  -->
+      <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+      <!-- Incluir Particles.js usando um CDN -->
+      <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+   </head>
+   <body>
+      <header class="header">
+         <div class="header_menu">
+            <div class="header_logo">
+               <a href="index.html">
+               <img src="assets/img/logo/logo.png  " alt="alp Jonguza logo" class="box" data-aos="fade-left" data-aos-duration="1500">
+               </a>
+            </div>
+            <div class="menu">
+               <nav class="menu_fixo">
+                  <ul>
+                     <li><a href="#"  class="hvr-pulse">Home</a></li>
+                     <li><a href="#servicos" class="hvr-pulse">Serviços</a></li>
+                     <li><a href="#Sobre_nos" class="hvr-pulse">Sobre nós</a></li>
+                     <li><a href="#" class="hvr-pulse">Contacto  </a></li>
+                  </ul>
+               </nav>
+            </div>
+            <div class="menu_escondido">
+               <nav class="">
+                  <ul>
+                     <li><a href="#" class="esconder">Home</a></li>
+                     <hr>
+                     <li><a href="#Sobre_nos" class="esconder">Sobre Nós </a></li>
+                     <hr>
+                     <li><a href="#servicos"class="esconder">Serviços</a></li>
+                     <hr>
+                     <li><a href="#"class="esconder">Contacto</a></li>
+                  </ul>
+               </nav>
+            </div>
+            <div class="menu_afastado">
+               <div class="menu_responsi">
+                  <li><i class="bx bx-menu"></i>
+                  </li>
+               </div>
+               <ul>
+                  <li><a target="_blank" href="https://api.whatsapp.com/send?phone=+244 929 388 517&text=Gostaria De Marcar Uma Reunião !" class="hvr-bounce-to-right">Marcar Reunião</a></li>
+               </ul>
+            </div>
+         </div>
+         <article class="header_content">
+            <div class="header_text">
+               <h1>ALpJonguza</h1>
+               <p>Excelência e precisão na limpeza de vidros para empresas e residências. Seu espaço, nossa responsabilidade.</p>
+            </div>
+            <img src="assets/img/diversas/WhatsApp Image 2024-08-14 at 08.23.38.jpeg" alt="Limpeza de Vidros">
+         </article>
+      </header>
+      <main>
+        <div class="scroll_controller" id="whatsapp-controller">
+            <span>
+               <a href="https://api.whatsapp.com/send?phone=+244956795587&text=Olá!"
+                        target="_blank" >
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="assets/img/logo/WhatsApp Image 2024-08-07 at 08.21.28.jpeg" type="image/x-icon">
-
-        <!-- CSS -->
-        <link rel="stylesheet" href="assets/css/main.css">
-        <link rel="stylesheet" href="dependencies/meanmenu/css/meanmenu.min.css" type="text/css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-
-
-
-        <!-- Google Fonts -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
-
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        <!--  Boxicons, oficial site  -->
-        <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
-
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-
-        <!-- Incluir Particles.js usando um CDN -->
-        <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
-    </head>
-    <body>
-        <header class="header">
-            <div class="header_menu">
-                <div class="header_logo">
-                    <a href="index.html">
-                        <img src="assets/img/logo/logo.png  " alt="alp Jonguza logo" class="box" data-aos="fade-left" data-aos-duration="1500">
+                        <i class="bx bxl-whatsapp"></i>
                     </a>
-                </div>
-                <div class="menu">
-                    <nav class="menu_fixo">
-                        <ul>
-                            <li><a href="#"  class="hvr-pulse">Home</a></li>
-                            <li><a href="#servicos" class="hvr-pulse">Serviços</a></li>
-                            <li><a href="#Sobre_nos" class="hvr-pulse">Sobre nós</a></li>
-                            <li><a href="#" class="hvr-pulse">Contacto  </a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="menu_escondido">
-                    <nav class="">
-                        <ul>
-                            <li><a href="#" class="esconder">Home</a></li>
-                            <hr>
-                            <li><a href="#Sobre_nos" class="esconder">Sobre Nós </a></li>
-                            <hr>
-                            <li><a href="#servicos"class="esconder">Serviços</a></li>
-                            <hr>
-                            <li><a href="#"class="esconder">Contacto</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="menu_afastado">
-                    <div class="menu_responsi">
-                        <li><i class="bx bx-menu"></i>
-                        </li>   
-                    </div>
-                    <ul>
-                        <li><a href="#" class="hvr-bounce-to-right">Marcar Reunião</a></li>
-                    </ul>
-                </div>
-            </div>
-            <article class="header_content">
-                <div class="header_text">
-               
-                    
-                    <h1>ALpJonguza</h1>
-                    <p>Excelência e precisão na limpeza de vidros para empresas e residências. Seu espaço, nossa responsabilidade.</p>
-                </div>
-                <img src="assets/img/diversas/WhatsApp Image 2024-08-14 at 08.23.38.jpeg" alt="Limpeza de Vidros">
-            </article>
-            
-        </header>
-
-
-        <main>
-            <div class="scroll_controller" onclick="scrollToTop()">
-                <span>
-                    
-                    <i class="bx bx-chevron-up"></i>
-    
-                </span>
-            </div>
-           
-        <div class="comenter"  class="box" data-aos="fade-right" data-aos-duration="1500">
-            <h3>
-                Nosssos Valores
-            </h3>
-        </div>
-            <div class="main_content">
-
-
-
-                <div class="main_content_imag" class="box" data-aos="fade-up" data-aos-duration="1500"><img src="assets/img/diversas/desafiamos_limite.svg" alt="">
-            
-              <div class="content_image_titulo" >
-                <img src="assets/img/diversas/images.png" alt="">
-
-                <h3>
-                    <span class="_comenter_span">Cmunicação</span>
-                </h3>
-                <p>
-                    Somos guiados por comprometimento, segurança e excelência. Nossos valores garantem uma limpeza de vidros eficiente, segura e sempre com a máxima qualidade, elevando cada projeto ao seu mais alto padrão.
-                </p>
-              </div>
-                    
-                
-                </div>
-                <div class="main_content_imag"  class="box" data-aos="fade-up" data-aos-duration="1500"><img src="assets/img/diversas/criamos_impacto.svg" alt="">
-                    <div class="content_image_titulo">
-                        <img src="assets/img/diversas/vecteezy_efficiency-icon-style_8741679.jpg" alt="">
-                        <h3>
-                            <span class="_comenter_span"> Trabalho de Excelência
-                            </span>
-                        </h3>
-                        <p>
-                            Na ALPJONGUZA, elevamos a limpeza de vidros a novas alturas, utilizando técnicas avançadas e soluções inovadoras que transformam desafios em fachadas impecáveis e clientes satisfeitos.
-
-   
-                        </p>
-                      </div>
-                </div>
-                <div class="main_content_imag"  class="box" data-aos="fade-up" data-aos-duration="1500"><img src="assets/img/diversas/trabalhamos_equipa.svg" alt="">
-                    <div class="content_image_titulo">
-                        <img src="assets/img/diversas/transferir (1).png" alt="">
-                        <h3>
-                            <span class="_comenter_span">Valores que nos Guiam </span>
-                        </h3>
-                        <p>
-                            Somos guiados por comprometimento, segurança e excelência. Nossos valores garantem uma limpeza de vidros eficiente, segura e sempre com a máxima qualidade, elevando cada projeto ao seu mais alto padrão.
-
-                        </p>
-                      </div>
-                </div>
-                <div class="main_content_imag"  class="box" data-aos="fade-up" data-aos-duration="15000"><img src="assets/img/diversas/trabalhamos_equipa.svg" alt="">
-                    <div class="content_image_titulo">
-                        <img src="assets/img/diversas/Imagem-do-topo-11.jpg
-                        " alt="">
-                        <h3>
-                            <span class="_comenter_span">Segurança no Trabalho</span>
-                        </h3>
-                        <p>
-                            Segurança é nossa prioridade. Com rigorosos protocolos e equipamentos de ponta, garantimos que cada operação de limpeza de vidros seja realizada com total proteção para nossa equipe e para seu patrimônio
-                        </p>
-                      </div>
-                </div>
-            
-            </div>
-
-
-
-
-
-           
-
-        
-        <div class="comenter"  class="box" data-aos="fade-right" data-aos-duration="1500" id="servicos">
-            <h3>
-                Nosssos Serviços
-            </h3>
+            </span>
         </div>
         
-        
-        <div class="main_content serv">
-            <div class="main_content_imag servicos" class="box" data-aos="fade-up" data-aos-duration="1500"><img src="assets/img/diversas/desafiamos_limite.svg" alt="">
-        
-                <div class="list">
-                    <img src="assets/img/diversas/Blue-check-mark-icon-design-on-transparent-background-PNG.png" alt="">
-                    <p>
-                        Limpeza de fachada vidrada e lacobones Industrias
-                    </p>
-                </div>
-                <div class="list">
-                    <img src="assets/img/diversas/Blue-check-mark-icon-design-on-transparent-background-PNG.png" alt="">
-                    <p>
-                        Limpeza de Silos
-                    </p>
-                </div>
-                <div class="list">
-                    <img src="assets/img/diversas/Blue-check-mark-icon-design-on-transparent-background-PNG.png" alt="">
-                    <p>
-                        Limpeza de exaustor e chaminé de cozinha Industrias
-                    </p>
-                </div>
-                <div class="list">
-                    <img src="assets/img/diversas/Blue-check-mark-icon-design-on-transparent-background-PNG.png" alt="">
-                    <p>
-                        Montagem de publicidades 
-                    </p>
-                </div>
-          
-                
-            
+         
+         <div class="comenter"  class="box" data-aos="fade-right" data-aos-duration="1500">
+            <h3>
+               Nosssos Valores
+            </h3>
+         </div>
+         <div class="main_content">
+            <div class="main_content_imag" class="box" data-aos="fade-up" data-aos-duration="1500">
+               <img src="assets/img/diversas/desafiamos_limite.svg" alt="">
+               <div class="content_image_titulo" >
+                  <img src="assets/img/diversas/images.png" alt="">
+                  <h3>
+                     <span class="_comenter_span">Cmunicação</span>
+                  </h3>
+                  <p>
+                     Somos guiados por comprometimento, segurança e excelência. Nossos valores garantem uma limpeza de vidros eficiente, segura e sempre com a máxima qualidade, elevando cada projeto ao seu mais alto padrão.
+                  </p>
+               </div>
             </div>
-            <div class="main_content_imag formulario"  class="box" data-aos="fade-up" data-aos-duration="1500"><img src="assets/img/diversas/criamos_impacto.svg" alt="">
-               
-                <h3 class="_comenter_span comenter_form">
-
-                    Peça Seu Orçamento 
-
-                </h3>
-                
-                <form action="">
+            <div class="main_content_imag"  class="box" data-aos="fade-up" data-aos-duration="1500">
+               <img src="assets/img/diversas/criamos_impacto.svg" alt="">
+               <div class="content_image_titulo">
+                  <img src="assets/img/diversas/vecteezy_efficiency-icon-style_8741679.jpg" alt="">
+                  <h3>
+                     <span class="_comenter_span"> Trabalho de Excelência
+                     </span>
+                  </h3>
+                  <p>
+                     Na ALPJONGUZA, elevamos a limpeza de vidros a novas alturas, utilizando técnicas avançadas e soluções inovadoras que transformam desafios em fachadas impecáveis e clientes satisfeitos.
+                  </p>
+               </div>
+            </div>
+            <div class="main_content_imag"  class="box" data-aos="fade-up" data-aos-duration="1500">
+               <img src="assets/img/diversas/trabalhamos_equipa.svg" alt="">
+               <div class="content_image_titulo">
+                  <img src="assets/img/diversas/transferir (1).png" alt="">
+                  <h3>
+                     <span class="_comenter_span">Valores que nos Guiam </span>
+                  </h3>
+                  <p>
+                     Somos guiados por comprometimento, segurança e excelência. Nossos valores garantem uma limpeza de vidros eficiente, segura e sempre com a máxima qualidade, elevando cada projeto ao seu mais alto padrão.
+                  </p>
+               </div>
+            </div>
+            <div class="main_content_imag"  class="box" data-aos="fade-up" data-aos-duration="15000">
+               <img src="assets/img/diversas/trabalhamos_equipa.svg" alt="">
+               <div class="content_image_titulo">
+                  <img src="assets/img/diversas/Imagem-do-topo-11.jpg
+                     " alt="">
+                  <h3>
+                     <span class="_comenter_span">Segurança no Trabalho</span>
+                  </h3>
+                  <p>
+                     Segurança é nossa prioridade. Com rigorosos protocolos e equipamentos de ponta, garantimos que cada operação de limpeza de vidros seja realizada com total proteção para nossa equipe e para seu patrimônio
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="comenter"  class="box" data-aos="fade-right" data-aos-duration="1500" id="servicos">
+            <h3>
+               Nosssos Serviços
+            </h3>
+         </div>
+         <div class="main_content serv">
+            <div class="main_content_imag servicos" class="box" data-aos="fade-up" data-aos-duration="1500">
+               <img src="assets/img/diversas/desafiamos_limite.svg" alt="">
+               <div class="list">
+                  <img src="assets/img/diversas/Blue-check-mark-icon-design-on-transparent-background-PNG.png" alt="">
+                  <p>
+                     Limpeza de fachada vidrada e lacobones Industrias
+                  </p>
+               </div>
+               <div class="list">
+                  <img src="assets/img/diversas/Blue-check-mark-icon-design-on-transparent-background-PNG.png" alt="">
+                  <p>
+                     Limpeza de Silos
+                  </p>
+               </div>
+               <div class="list">
+                  <img src="assets/img/diversas/Blue-check-mark-icon-design-on-transparent-background-PNG.png" alt="">
+                  <p>
+                     Limpeza de exaustor e chaminé de cozinha Industrias
+                  </p>
+               </div>
+               <div class="list">
+                  <img src="assets/img/diversas/Blue-check-mark-icon-design-on-transparent-background-PNG.png" alt="">
+                  <p>
+                     Montagem de publicidades 
+                  </p>
+               </div>
+            </div>
+            <div class="main_content_imag formulario"  class="box" data-aos="fade-up" data-aos-duration="1500">
+               <img src="assets/img/diversas/criamos_impacto.svg" alt="">
+               <h3 class="_comenter_span comenter_form">
+                  Peça Seu Orçamento 
+               </h3>
+               <form action="">
                   <input type="text" placeholder=" Digite seu nome ou o nome da empresa" required>
-
-                        <br>
-
-                      <input type="email" placeholder=" Digite seu e-mail" required>
-    
-                   <br>
-
-                             <textarea name="" id="" placeholder="Descreva suas necessidades"></textarea>
-
-                                    <br>
-                           <button>
-                       Enviar
-                            </button>
-
+                  <br>
+                  <input type="email" placeholder=" Digite seu e-mail" required>
+                  <br>
+                  <textarea name="" id="" placeholder="Descreva suas necessidades"></textarea>
+                  <br>
+                  <button>
+                  Enviar
+                  </button>
                </form>
             </div>
-          
-           
-        
-        </div>
-        
-        <div class="comenter"  class="box" data-aos="fade-right" data-aos-duration="1500" id="Sobre_nos">
+         </div>
+         <div class="comenter"  class="box" data-aos="fade-right" data-aos-duration="1500" id="Sobre_nos">
             <h3>
-                Sobre Nós
+               Sobre Nós
             </h3>
-        </div>
-
-
-        <section class="Sobre_nos">
-
+         </div>
+         <section class="Sobre_nos">
             <div class="sobre_picture">
-                <img src="assets/img/diversas/WhatsApp Image 2024-08-12 at 21.32.44 (1).jpeg" alt="">
+               <img src="assets/img/diversas/WhatsApp Image 2024-08-12 at 21.32.44 (1).jpeg" alt="">
             </div>
-
             <div class="sobre_info">
-                <h1>
-                    Sobre a ALPJONGUZA
-                </h1>
+               <h1>
+                  Sobre a ALPJONGUZA
+               </h1>
+               <div class="info_text">
+                  <p>
+                     Alpjonguza é uma empresa angolana, 
+                     especializada em alpinismo industrial com foco na limpeza de vidros em grandes alturas. 
+                     A empresa surgiu para atender a crescente necessidade de manutenção 
+                     de fachadas em edifícios comerciais e residenciais, investindo em equipamentos modernos 
+                     e na formação de uma equipe altamente qualificada.
+                  </p>
+                  <img src="assets/img/diversas/WhatsApp Image 2024-08-12 at 21.32.44 (1).jpeg" alt="">
+                  <br>
+                  Oferecemos serviços seguros e eficientes para a 
+                  manutenção de fachadas de edifícios comerciais e residenciais, 
+                  destacando-se pela confiabilidade e compromisso com a preservação dos imóveis.
+               </div>
+               <div class="t_trabalho">
+                  <div class="t_trabalho">
+                     <h1>
+                        Testemunhas Do Nosso Trabalho
+                     </h1>
+                     <div class="t_trabalho_div">
+                        <div class="boxs">
+                            <img src="assets/img/logo/caafgo.jpeg" alt="Alpjonguza image">
+                            <p>
+                                Grupo Cafago
+                            </p>
+                        </div>
+                        <div class="boxs">
+                            <img src="assets/img/logo/zediua.jpeg"  alt="Alpjonguza image">
+                            <p class="zediua">
+                                Zediua
+                            </p>
 
-                <div class="info_text">
-                    <p>
-                        Alpjonguza é uma empresa angolana, 
-                        especializada em alpinismo industrial com foco na limpeza de vidros em grandes alturas. 
-                        A empresa surgiu para atender a crescente necessidade de manutenção 
-                        de fachadas em edifícios comerciais e residenciais, investindo em equipamentos modernos 
-                        e na formação de uma equipe altamente qualificada.
-                    </p>
-  <img src="assets/img/diversas/WhatsApp Image 2024-08-12 at 21.32.44 (1).jpeg" alt="">
-                    <br>
-
-                    Oferecemos serviços seguros e eficientes para a 
-                    manutenção de fachadas de edifícios comerciais e residenciais, 
-                    destacando-se pela confiabilidade e compromisso com a preservação dos imóveis.
-                </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-
-
-        </section>
-
-
-        <div class="comenter"  class="box" data-aos="fade-right" data-aos-duration="1500" id="servicos">
+         </section>
+         <div class="comenter"  class="box" data-aos="fade-right" data-aos-duration="1500" id="servicos">
             <h3>
-                Contactos
+               Contactos
             </h3>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-        </main>
-
-        
-
-       
-
-
-        <footer class="footer">
-
-            <div class="footer_name ">
-                <h3>
-                    ALpJonguza LDA
-                </h3>
+         </div>
+         <div>
+            <iframe 
+               style="border:0; width: 100%; height: 350px;" 
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1919.2043576181342!2d13.304686298984887!3d-8.934901403415914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a522fa9a6d3b0e9%3A0xb751f15d31b63e27!2sLocal%20espec%C3%ADfico!5e0!3m2!1spt-PT!2sao!4v1716214165507!5m2!1spt-PT!2sao" 
+               allowfullscreen="" 
+               loading="lazy">
+            </iframe>  
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="footer_name ">
+            <h3>
+               ALpJonguza LDA
+            </h3>
+         </div>
+         <nav class="nav social_elements  ">
+            <div class="social_icons social_footer ">
+               <!-- whatsapp api intergration-->
+               <ul>
+                  <li>
+                     <a href="https://github.com/MauricioRomao" target="_blank">
+                     <i class="bx bxl-facebook"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.linkedin.com/in/mauro-rom%C3%A3o-bb4377257/" target="_blank">
+                     <i class="bx bxl-instagram"></i>
+                     </a>
+                  </li>
+               </ul>
             </div>
-    
-            <nav class="nav social_elements  ">
-    
-                <div class="social_icons social_footer ">
-                    <!-- whatsapp api intergration-->
-                    <ul>
-    
-                        <li>
-                            <a href="https://github.com/MauricioRomao" target="_blank">
-    
-                                <i class="bx bxl-facebook"></i>
-                            </a>
-                        </li>
-    
-                        <li>
-                            <a href="https://www.linkedin.com/in/mauro-rom%C3%A3o-bb4377257/" target="_blank">
-                                <i class="bx bxl-instagram"></i>
-                            </a>
-                        </li>
-    
-                    </ul>
-                </div>
-
-            </nav>
-    
-    
-    
-            <div class="footer_copy">
-                <h3>
-                    All rights reserved &copy
-                </h3>
-            </div>
-    
-        </footer>
-       
-        <!-- JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js"></script>
-        <script src="dependencies/meanmenu/js/jquery.meanmenu.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <script src="assets/js/main.js" defer></script>
-
-        <script>
-            $(document).ready(function () {
-                $('.menu_fixo').meanmenu({
-                    meanScreenWidth: "768",
-                    meanMenuContainer: 'header',
-                    meanRevealPosition: 'right',
-                    meanShowChildren: true,
-                    meanExpandableChildren: true,
-                    meanExpand: "+",
-                    meanContract: "-"
-                });
-            });
-            $( function() {
-            $( "#accordion" ).accordion();
-        } );
-            // Inicialize AOS
-            AOS.init();
-
-            // Inicialize Particles.js
-            particlesJS.load('particles-js', 'assets/particles.json', function() {
-                console.log('particles.js loaded - callback');
-            });
-        </script>
-    </body>
-    </html>
+         </nav>
+         <div class="footer_copy">
+            <h3>
+               All rights reserved &copy
+            </h3>
+         </div>
+      </footer>
+      <!-- JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js"></script>
+      <script src="dependencies/meanmenu/js/jquery.meanmenu.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="assets/js/main.js" defer></script>
+      <script>
+         $(document).ready(function () {
+             $('.menu_fixo').meanmenu({
+                 meanScreenWidth: "768",
+                 meanMenuContainer: 'header',
+                 meanRevealPosition: 'right',
+                 meanShowChildren: true,
+                 meanExpandableChildren: true,
+                 meanExpand: "+",
+                 meanContract: "-"
+             });
+         });
+         $( function() {
+         $( "#accordion" ).accordion();
+         } );
+         // Inicialize AOS
+         AOS.init();
+         
+         // Inicialize Particles.js
+         particlesJS.load('particles-js', 'assets/particles.json', function() {
+             console.log('particles.js loaded - callback');
+         });
+      </script>
+   </body>
+</html>
