@@ -35,10 +35,25 @@ document.addEventListener("DOMContentLoaded", function() {
                 });
             });
         } else {
-            console.log(" Sempre a erra, Mauro !!");
+            console.log(" Sempre a errar, Mauro !!");
         }
     }
 
    
     fecharMenu();
 });
+
+function scrollToTop() {
+    document.body.scrollTop = 0; // <!-- Para navegadores Safari -->
+    document.documentElement.scrollTop = 0; // <!--- Para outros navegadores -->
+}
+
+function scrollFunction() {
+    var scrollToTopBtn = document.querySelector('.scroll_controller');
+
+    if (document.body.scrollTop > 130 || document.documentElement.scrollTop > 130) {
+        scrollToTopBtn.classList.add("show");
+    } else {
+        scrollToTopBtn.classList.remove("show");
+    }
+}
